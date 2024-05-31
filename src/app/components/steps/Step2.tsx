@@ -17,7 +17,7 @@ const Step2: React.FC<StepProps> = ({ nextStep, prevStep }) => {
 
     return (
         <div>
-        <h2 className="text-2xl mb-4">Dirección</h2>
+        <h2 className="text-2xl mb-4">Address</h2>
         <input
             type="text"
             placeholder="Street Address"
@@ -57,7 +57,7 @@ const Step2: React.FC<StepProps> = ({ nextStep, prevStep }) => {
             disabled={!isValid()}
             className={`p-2 ${!isValid() ? 'bg-gray-300' : 'bg-blue-500 text-white'}`}
             >
-            Siguiente
+            Next
             </button>
         </div>
         </div>

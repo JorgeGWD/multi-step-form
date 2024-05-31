@@ -42,7 +42,7 @@ const Step1: React.FC<StepProps> = ({ nextStep }) => {
             disabled={!isValid()}
             className={`p-2 w-full ${!isValid() ? 'bg-gray-300' : 'bg-blue-500 text-white'}`}
         >
-            Siguiente
+            Next
         </button>
         </div>
     );
